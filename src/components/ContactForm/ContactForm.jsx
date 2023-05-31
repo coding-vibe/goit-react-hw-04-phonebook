@@ -55,6 +55,8 @@ ContactForm.propTypes = {
 
 export default ContactForm;
 
+
+
 // class ContactForm extends Component {
 //     state = {
 //         name: '',
