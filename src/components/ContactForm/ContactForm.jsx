@@ -4,7 +4,7 @@ import shortid from 'shortid';
 import { InputName, InputNumber, Button } from './ContactForm.styled.js';
 
 
-const ContactForm = () => {
+const ContactForm = ({ onSubmit }) => {
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
 
